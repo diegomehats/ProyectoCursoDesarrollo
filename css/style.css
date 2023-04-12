@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+/*llamado a fuente: font-family: 'Montserrat', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+
+  
+}
+
+/*  INDEX  */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f6f6;
+    }
+
+
+ /*     NAV     */
+nav{
+    background-color: #e6e6e6bd;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.menu {
+    list-style: none;
+    text-align: right;
+    padding: 12px;
+    margin: 0; 
+}
+
+
+
+.menu li a{
+    display: block;
+    width: 100%;
+    padding: 6px; 
+}
+/*      FIN Nav     */
+
+
+/*     IMAGENES BANNER  */
+.img-banner{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.video-banner video{
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/*      MAIN INDEX    */
+
+.row-caja {
+    
+    background-color: #e6e6e6;
+    height:400px ;
+}
+
+
+.row .c2 p{
+    color: black;
+    font-weight: bolder;
+}
+.row .c1 {
+    background-color: #e6e6e6;
+
+}
+
+.row .c3{
+    background-color: #e6e6e6;
+    color: black;
+    text-align:center;
+    font-size: small;
+    font-weight: lighter;
+    padding: 20px 100px;
+}
+.row .c3 p{
+   color: black;
+   text-align: justify;
+    
+}
+
+/*  Tarjetas Index   */
+.tarjeta{
+    background-color: #e6e6e6;
+    align-items: center;
+
+}
+
+.tarjeta img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    background-color: #464646 ;
+    color: white;
+    margin: 2px;
+}
+.btn:hover{
+    background-color: #ffb100;
+    color: black;
+    box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cajap {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 300px;
+}
+.cajap p{
+    color: black;
+    font-weight: lighter;
+    padding:100px 200px;
+    text-align: justify;
+
+}
+/*    FIN INDEX     */
+
+
+
+/*     MAIN PROYECTO 1     */
+.desc h1{
+    padding: 10px;
+}
+.desc p{
+    font-weight: lighter;
+    padding: 15px; 
+    text-align: justify;
+}
+
+
+
+
+/*  FOOTER      */
+footer{
+    width: 100%;
+    height: 60px;
+    background-color:#e6e6e6 ;
+}
+
+footer p{
+    color: #464646;
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 50px;
+    background-color: #e6e6e6;
+    padding-bottom: 25px;
+}
+
+
+
+/* MAIN CONTACTO */
+.map{
+    padding: 20px;
+}
+.cont{
+    background-color: white;
+    height: 75px;
+}
+
+
