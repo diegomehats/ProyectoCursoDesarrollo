@@ -138,6 +138,7 @@ a{
     font-weight: lighter;
     padding: 15px; 
     text-align: justify;
+    width: 100%;
 }
 
 
@@ -163,8 +164,10 @@ footer p{
 
 
 /* MAIN CONTACTO */
-.map{
+.map iframe{
     padding: 20px;
+    width: 100%;
+    height: 300px;
 }
 .cont{
     background-color: white;
