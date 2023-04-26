@@ -1,0 +1,28 @@
+/*     NAV     */
+nav{
+    background-color: #e6e6e6bd;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu {
+    list-style: none;
+    text-align: right;
+    padding: 12px;
+    margin: 0; 
+}
+
+
+
+.menu li a{
+    display: block;
+    width: 100%;
+    padding: 6px; 
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #d89700;
+    
+}

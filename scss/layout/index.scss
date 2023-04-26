@@ -1,0 +1,120 @@
+/*     IMAGENES BANNER  */
+.img-banner, .baner img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.video-banner video{
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/*      MAIN INDEX    */
+
+.row-caja {
+    
+    background-color: #e6e6e6;
+    height:400px ;
+}
+
+
+.row .c2 p{
+    color: black;
+    font-weight: bolder;
+}
+.row .c1 {
+    background-color: #e6e6e6;
+
+}
+
+.row .c3{
+    background-color: #e6e6e6;
+    color: black;
+    text-align:center;
+    font-size: small;
+    font-weight: lighter;
+    padding: 20px 100px;
+   & p{
+        color: black;
+        text-align: justify;
+         
+     }
+}
+ 
+
+/*  Tarjetas Index   */
+.tarjeta{
+    background-color: #e6e6e6;
+    align-items: center;
+    & img{
+        height: 500px;
+        width: 95%;
+        object-fit: cover;
+        &:hover{
+            height: 550px;
+            width: 100%;
+            box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+    }
+
+}
+
+
+.btn{
+    background-color: #464646 ;
+    color: white;
+    margin: 2px;
+    &:hover{
+        background-color: #ffb100;
+        color: black;
+        box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+}
+
+
+.cajap {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 300px;
+    & p{
+        color: black;
+        font-weight: lighter;
+        padding:100px 200px;
+        text-align: justify;
+    
+    }
+}
+
+
+
+
+
+/*     MAIN PROYECTO 1     */
+.desc h1{
+    padding: 10px;
+}
+.desc p{
+    font-weight: lighter;
+    padding: 15px; 
+    text-align: justify;
+    width: 100%;
+}
+
+
+/* MAIN CONTACTO */
+.map iframe{
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+.cont{
+    background-color: white;
+    height: 75px;
+}
+
+.formulario{
+    background-color: #e6e6e6;
+}
