@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+/*llamado a fuente: font-family: 'Montserrat', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*  INDEX  */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f6f6;
+}
+
 /*  FOOTER      */
 .footer {
   width: 100%;
@@ -100,7 +118,7 @@ a {
 }
 
 .btn {
-  background-color: #464646;
+  background-color: grisOscuro;
   color: white;
   margin: 2px;
 }
@@ -118,7 +136,7 @@ a {
 .cajap p {
   color: black;
   font-weight: lighter;
-  padding: 100px 200px;
+  padding: 30px;
   text-align: justify;
 }
 
@@ -129,7 +147,8 @@ a {
 
 .desc p {
   font-weight: lighter;
-  padding: 15px;
+  font-size: large;
+  padding: 50px;
   text-align: justify;
   width: 100%;
 }
@@ -148,6 +167,16 @@ a {
 
 .formulario {
   background-color: #e6e6e6;
+}
+
+@media only screen and (max-width: 768px) {
+  .desc p {
+    font-size: smaller;
+  }
+  .desc h1 {
+    text-align: center;
+    font-size: xx-large;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

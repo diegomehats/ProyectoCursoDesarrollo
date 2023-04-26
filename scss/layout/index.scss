@@ -64,7 +64,7 @@
 
 
 .btn{
-    background-color: #464646 ;
+    background-color: grisOscuro;
     color: white;
     margin: 2px;
     &:hover{
@@ -82,7 +82,7 @@
     & p{
         color: black;
         font-weight: lighter;
-        padding:100px 200px;
+        padding:30px;
         text-align: justify;
     
     }
@@ -98,9 +98,11 @@
 }
 .desc p{
     font-weight: lighter;
-    padding: 15px; 
+    font-size: large;
+    padding: 50px; 
     text-align: justify;
     width: 100%;
+    
 }
 
 
@@ -118,3 +120,4 @@
 .formulario{
     background-color: #e6e6e6;
 }
+
