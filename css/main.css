@@ -13,25 +13,33 @@ ul {
 /*  INDEX  */
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f7f6f6;
+  background-color: #000000;
 }
 
 /*  FOOTER      */
 .footer {
   width: 100%;
   height: 60px;
-  background-color: #e6e6e6;
+  background-color: #000000;
 }
 .footer p {
-  color: #464646;
+  color: white;
   text-align: center;
   font-weight: lighter;
   font-size: small;
   padding-top: 50px;
-  background-color: #e6e6e6;
+  background-color: #000000;
   padding-bottom: 25px;
 }
 
+.footer-nav {
+  background-color: #000000;
+}
+.footer-nav .nav-link {
+  color: white;
+}
+
+/*     NAV     */
 /*     NAV     */
 nav {
   background-color: rgba(230, 230, 230, 0.7411764706);
@@ -70,55 +78,91 @@ a {
 .video-banner video {
   height: 600px;
   width: 100%;
+  object-fit: cover;
+}
+
+.carrusel-2 {
+  background-color: #000000;
+}
+.carrusel-2 img {
+  height: 400px;
+  padding: 30px;
+  width: 100%;
   object-fit: contain;
 }
 
 /*      MAIN INDEX    */
 .row-caja {
-  background-color: #e6e6e6;
+  background-color: #000000;
   height: 400px;
 }
 
-.row .c2 p {
-  color: black;
+.row .c2 p, .icon {
+  color: #ffb100;
   font-weight: bolder;
+  font-size: x-large;
 }
 
 .row .c1 {
-  background-color: #e6e6e6;
+  background-color: #000000;
+  padding: 15px;
+}
+.row .c1 img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.row .c1-1 {
+  background-color: #000000;
+  padding: 15px;
+}
+.row .c1-1 img {
+  width: 90%;
+  height: 500px;
+  object-fit: contain;
 }
 
 .row .c3 {
-  background-color: #e6e6e6;
-  color: black;
+  background-color: #000000;
+  color: rgb(0, 0, 0);
   text-align: center;
+  align-items: center;
   font-size: small;
   font-weight: lighter;
   padding: 20px 100px;
 }
 .row .c3 p {
-  color: black;
+  color: white;
   text-align: justify;
+  padding: 20px;
+  border-style: groove;
+  border-radius: 10px;
+  font-size: medium;
 }
 
 /*  Tarjetas Index   */
-.tarjeta {
-  background-color: #e6e6e6;
+.tarjetas {
+  padding: 20px;
+  background-color: #000000;
+}
+.tarjetas .tarjeta {
+  background-color: #000000;
   align-items: center;
 }
-.tarjeta img {
+.tarjetas .tarjeta img {
   height: 500px;
   width: 95%;
   object-fit: cover;
 }
-.tarjeta img:hover {
+.tarjetas .tarjeta img:hover {
   height: 550px;
   width: 100%;
   box-shadow: 3px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .btn {
-  background-color: grisOscuro;
+  background-color: #464646;
   color: white;
   margin: 2px;
 }
@@ -129,35 +173,43 @@ a {
 }
 
 .cajap {
-  background-color: #e6e6e6;
+  background-color: #000000;
   width: 100%;
   height: 300px;
 }
 .cajap p {
-  color: black;
+  color: white;
   font-weight: lighter;
-  padding: 30px;
+  padding: 10px;
   text-align: justify;
+}
+.cajap h2 {
+  color: #ffb100;
 }
 
 /*     MAIN PROYECTO 1     */
-.desc h1 {
-  padding: 10px;
+.desc {
+  padding: 20px;
+  background-color: #000000;
 }
-
 .desc p {
   font-weight: lighter;
+  color: white;
   font-size: large;
   padding: 50px;
   text-align: justify;
   width: 100%;
+}
+.desc h1, .desc h2, .desc h3 {
+  color: #ffb100;
 }
 
 /* MAIN CONTACTO */
 .map iframe {
   padding: 20px;
   width: 100%;
-  height: 300px;
+  height: 500px;
+  background-color: #000000;
 }
 
 .cont {
@@ -166,7 +218,10 @@ a {
 }
 
 .formulario {
-  background-color: #e6e6e6;
+  background-color: #000000;
+}
+.formulario label {
+  color: #ffb100;
 }
 
 @media only screen and (max-width: 768px) {
